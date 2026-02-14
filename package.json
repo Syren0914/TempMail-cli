@@ -1,6 +1,6 @@
 {
   "name": "@syren0914/tempmail-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tiny, single-file CLI to spin up a temporary email inbox, watch it live in a terminal UI.",
   "type": "module",
   "main": "bin/index.js",
@@ -8,7 +8,7 @@
     "tempmail": "./bin/index.js"
   },
   "scripts": {
-    "start": "node bin/index.js",
+    "start": "node init && node bin/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
